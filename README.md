@@ -28,19 +28,17 @@
 ## &#x2728; What is cub3d?
 
 The goal of cub3d is to make a 3d game using raycasting like Wolfenstein 3D.
-It's two-person project was done with full bonuses by `vcereced` and `dgarizad` students of 42.
+It's two-person project was done with full bonuses by `vcereced` and `dgarizad` students of 42. Enjoy the game!
 
-Enjoy the game!
-
+<p align="center">Mandatory part, super optimized:</p>
 <p align="center">
-	
 	<img src="https://github.com/vcereced/cub3d/assets/120835200/2b3a067d-08e8-49e1-a744-ba27b193cc44" alt="Imagen" width="350">
-	
-	<img src="https://github.com/vcereced/cub3d/assets/120835200/9f57a1a8-0761-4bdd-be96-cac2778ec847" alt="Imagen" width="300">
+</p>	
+<p align="center">Bonus part, heavier due to the extra rendering:</p>
+<p align="center">
+	<img src="https://github.com/vcereced/cub3d/assets/120835200/9f57a1a8-0761-4bdd-be96-cac2778ec847" alt="Imagen" width="340">
 </p>
 
-	Mandatory part, super optimized:
-	Bonus part, heavier due to the extra rendering:
 
 
 
