@@ -53,7 +53,7 @@ It's two-person project was done with full bonuses by `vcereced` and `dgarizad` 
 |&#x270B;| `Q`|
 |&#x274C;|  `ESC`|
 
-## 🛠 Set the params
+## 🛠 Set the map
 
 | | |
 |---|---|
