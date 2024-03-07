@@ -27,7 +27,12 @@
 
 ## &#x2728; What is cub3d?
 
-The goal of cub3d is to make a 3d game using raycasting like Wolfenstein 3D. 
+The goal of cub3d is to make a 3d game using raycasting like Wolfenstein 3D.
+It's two-person project was done with full bonuses by `vcereced` and `dgarizad` students of 42.
+
+Enjoy the game!
+
+
 
 <p align="center">
   <img width="231" alt="Screen Shot 2024-03-07 at 1 41 44 PM" src="https://github.com/vcereced/philosopher/assets/120835200/7a70dcc9-6f4a-4286-95dc-51155e994e4b">
