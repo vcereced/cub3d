@@ -27,7 +27,7 @@
 
 ## &#x2728; What is cub3d?
 
-The goal of cub3d is to make a 3d game using raycasting like Wolfenstein 3D.
+The goal of cub3d is to make a 3d game using raycasting like Wolfenstein 3D. Using a minilibx library, DDA algoritm and the correct parsing.
 It's two-person project was done with full bonuses by `vcereced` and `dgarizad` students of 42. Enjoy the game!
 
 <p align="center">Mandatory part, super optimized:</p>
@@ -39,30 +39,19 @@ It's two-person project was done with full bonuses by `vcereced` and `dgarizad` 
 	<img src="https://github.com/vcereced/cub3d/assets/120835200/9f57a1a8-0761-4bdd-be96-cac2778ec847" alt="Imagen" width="340">
 </p>
 
-
-
-
-
-
-
-
-## 🕹 Rules
+## 🕹 Controls
 
 | | |
 |---|---|
-|&#x1F480;| The philosophers must never be starving, they need to eat.|
-|&#x274C;| The simulation stops when a philosopher dies.|
-|&#x23F3;| No more than 10 ms between the death and print its death.|
-|&#x1F5A8;| The status printed should not be messed with another philosopher’s status.|
-|&#127869;| While `eating`, they are not `thinking` or `sleeping`. |
-|&#x1F634;| While `sleeping`, they are not `eating` or `thinking`.|
-|&#x1F914;| While `thinking`, they are not `eating` or `sleeping`.|
-|&#x1F374; &#x1F374;| Philosopher must eat with two forks, one for each hand. |
-|&#x1F4AC;| Philosophers don’t speak with each other. |
-|&#x1F4AD;| Philosophers don’t know when another philosopher is about to die. |
-|&#127869;&#x2192;&#x1F374;&#x1F374;&#x2192;&#x1F634;  | Each time a philosopher has finished `eating`, he will drop his forks and start `sleeping`. |
-|&#x1F634;&#x2192;&#x1F914; | When a philosopher is done `sleeping`, he will start `thinking`. |
-|&#x1F914;&#x2192;&#x1F374;&#x1F374;&#x2192;&#127869;  | When a philosopher is done `thinking`, he will take 2 forks to `eating`. |
+|&#x2B06;| `W` |
+|&#x2B05;| `A`|
+|&#x2B07;| `S`|
+|&#x27A1;| `D`|
+|&#x21BA;| &larr;|
+|&#x21BB;| &rarr;|
+|&#x1F52B;| `space` |
+|&#x270B;| `Q`|
+|&#x274C;|  `ESC`|
 
 ## 🛠 Set the params
 
