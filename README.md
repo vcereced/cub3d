@@ -36,6 +36,9 @@ Enjoy the game!
 	<img src="https://github.com/vcereced/cub3d/assets/120835200/9f57a1a8-0761-4bdd-be96-cac2778ec847" alt="Imagen" width="300">
 </p>
 
+![ScreenRecording2024-03-07at6 58 16PM-ezgif com-resize-video](https://github.com/vcereced/cub3d/assets/120835200/2b3a067d-08e8-49e1-a744-ba27b193cc44)
+
+
 
 
 
