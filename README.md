@@ -32,11 +32,12 @@ It's two-person project was done with full bonuses by `vcereced` and `dgarizad` 
 
 Enjoy the game!
 
-
-
 <p align="center">
-  <img width="231" alt="Screen Shot 2024-03-07 at 1 41 44 PM" src="https://github.com/vcereced/philosopher/assets/120835200/7a70dcc9-6f4a-4286-95dc-51155e994e4b">
+	<img src="https://github.com/vcereced/cub3d/assets/120835200/9f57a1a8-0761-4bdd-be96-cac2778ec847" alt="Imagen" width="300">
 </p>
+
+
+
 
 ## 🕹 Rules
 
