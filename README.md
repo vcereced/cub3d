@@ -106,7 +106,7 @@ make && ./cub3d ./maps/cub1.cub
 Run the game with bonus
 
 ```bash
-make && ./cub3d_bonus ./maps/duum.cub
+make bonus && ./cub3d_bonus ./maps/duum.cub
 ```
 
 
