@@ -18,14 +18,6 @@
   
 </p>
 
-## &#x1F4CC; Index 
-- [What is cub3d?](#-what-is-cub3d)
-- [Rules](#-rules)
-- [Set the params](#-set-the-params)
-- [Usage](#-usage)
-- [Control](#-control)
-- [Examples](#-examples)
-
 ## &#x2728; What is cub3d?
 
 The goal of cub3d is to make a 3d game using raycasting like Wolfenstein 3D. Using a minilibx library, DDA algoritm and the correct parsing.
@@ -81,6 +73,8 @@ C  0,180,255
 `make clean` remove .o files.
 
 `make fclean` remove .o files and .a files and executable.
+
+`re` means `make clean` then  `make`.
 
 ## 🕹 Controls
 
