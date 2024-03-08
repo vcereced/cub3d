@@ -55,14 +55,22 @@ It's two-person project was done with full bonuses by `vcereced` and `dgarizad` 
 
 ## 🛠 Set the map
 
-| | |
-|---|---|
-|`number_of_philosophers`| number of philosophers (process / threads). |
-|`time_to_die`| Miliseconds after starting his last `eating` or start de simulation to die. |
-|`time_to_eat`| Milliseconds will spend to `eating` after take the 2 forks. |
-|`time_to_sleep`| Milliseconds will spend to `sleeping`. |
-|`number_of_times_each_philosopher_must_eat`| [optional]. If all ate at least `number_of_times_each_philosopher_must_eat`, simulation finish. If not specified, simulation continue till someone die.|
-|`number_of_philosophers`| number of philosophers (process / threads). |
+You can create your own map setting a file .cub. The parser checks the params are ok and the map is closed properly:
+
+
+
+`NO` Texture of northern walls. 
+`SO` Texture of southern walls. 
+`WE` Texture of westhern walls. 
+`EA` Texture of easthern walls. 
+`F` R,G,B Floor.
+`C` R,G,B Floor.
+`1` Wall.
+`0` Floor.
+
+`N, W, S, E` Start position of player.
+
+Example
 
 
 ## &#x1F4BB; Usage
