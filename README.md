@@ -25,12 +25,18 @@ It's two-person project was done with full bonuses by `vcereced` and `dgarizad` 
 
 <p align="center">Mandatory part, super optimized:</p>
 <p align="center">
-	<img src="https://github.com/vcereced/cub3d/assets/120835200/2b3a067d-08e8-49e1-a744-ba27b193cc44" alt="Imagen" width="450">
+	<img src="https://github.com/vcereced/cub3d/assets/120835200/2b3a067d-08e8-49e1-a744-ba27b193cc44" alt="Imagen" width="400">
 </p>	
 <p align="center">Bonus part, heavier due to the extra rendering:</p>
 <p align="center">
-	<img src="https://github.com/vcereced/cub3d/assets/120835200/9f57a1a8-0761-4bdd-be96-cac2778ec847" alt="Imagen" width="440">
+<img src="https://github.com/vcereced/cub3d/assets/120835200/a2f7b3bc-1927-4b70-8713-dade337584ce" alt="Screen Recording" width="400">
+
 </p>
+
+
+
+
+![Uploading Screen Recording 2024-03-07 at 7.17.40 PM.gif…]()
 
 
 ## 🛠 Set the map
