@@ -19,10 +19,11 @@
 </p>
 
 ## &#x1F4CC; Index 
-- [What is philosophers?](#-what-is-philosophers)
+- [What is cub3d?](#-what-is-cub3d)
 - [Rules](#-rules)
 - [Set the params](#-set-the-params)
 - [Usage](#-usage)
+- [Control](#-control)
 - [Examples](#-examples)
 
 ## &#x2728; What is cub3d?
@@ -39,19 +40,6 @@ It's two-person project was done with full bonuses by `vcereced` and `dgarizad` 
 	<img src="https://github.com/vcereced/cub3d/assets/120835200/9f57a1a8-0761-4bdd-be96-cac2778ec847" alt="Imagen" width="340">
 </p>
 
-## 🕹 Controls
-
-| | |
-|---|---|
-|&#x2B06;| `W` |
-|&#x2B05;| `A`|
-|&#x2B07;| `S`|
-|&#x27A1;| `D`|
-|&#x21BA;| &larr;|
-|&#x21BB;| &rarr;|
-|&#x1F52B;| `space` |
-|&#x270B;| `Q`|
-|&#x274C;|  `ESC`|
 
 ## 🛠 Set the map
 
@@ -70,10 +58,10 @@ You can create your own map setting a file .cub. The parser checks the params ar
 
 Example:
 ```bash
-WE ./imgs/wall1.png
-EA ./imgs/wall2.png
-NO ./imgs/wall3.png
-SO ./imgs/wall4.png
+WE ./imgs/wall_N.png
+EA ./imgs/wall_W.png
+NO ./imgs/wall_S.png
+SO ./imgs/wall_E.png
 F 100,200,1
 C  0,180,255
          1111111111111111111111111
@@ -86,40 +74,40 @@ C  0,180,255
 
 ## &#x1F4BB; Usage
 
-`cd philo && make` to compile the executable with threads / mutex.
+`make` to compile the executable.
 
-`cd philo_bonus && make` to compile the executable with process / semaphores.
+`make bonus` to compile the executable with bonus.
 
 `make clean` remove .o files.
 
 `make fclean` remove .o files and .a files and executable.
 
+## 🕹 Controls
+
+| | |
+|---|---|
+|&#x2B06;| `W` |
+|&#x2B05;| `A`|
+|&#x2B07;| `S`|
+|&#x27A1;| `D`|
+|&#x21BA;| &larr;|
+|&#x21BB;| &rarr;|
+|&#x1F52B;| `space` |
+|&#x270B;| `Q`|
+|&#x274C;|  `ESC`|
+
 ## &#x1F4D6; Examples
 
-The arguments of the executable should be:
+Run the game without bonus
 ```bash
-number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]
+make && ./cub3d ./maps/cub1.cub
 ```
 
-Execute whith the arguments in the terminal.
+Run the game with bonus
 
 ```bash
-./philo 4 310 200 100
+make && ./cub3d_bonus ./maps/duum.cub
 ```
-
-Should one philosopher die. Output should be:
-
-<img width="377" alt="Screen Shot 2024-03-07 at 5 37 21 PM" src="https://github.com/vcereced/philosopher/assets/120835200/c7a4e095-354e-4788-a005-05f01977d02d">
-
-Execute the bonus whith the arguments in the terminal.
-
-```bash
-./philo_bonus 4 410 200 100 1
-```
- Output should be:
-
- <img width="377" alt="Screen Shot 2024-03-07 at 5 42 35 PM" src="https://github.com/vcereced/philosopher/assets/120835200/a22b1c3d-adcd-4d59-a1c1-faf567a40e12">
-
 
 
 
