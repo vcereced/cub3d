@@ -57,8 +57,6 @@ It's two-person project was done with full bonuses by `vcereced` and `dgarizad` 
 
 You can create your own map setting a file .cub. The parser checks the params are ok and the map is closed properly:
 
-
-
 `NO` Texture of northern walls. 
 `SO` Texture of southern walls. 
 `WE` Texture of westhern walls. 
@@ -70,8 +68,21 @@ You can create your own map setting a file .cub. The parser checks the params ar
 
 `N, W, S, E` Start position of player.
 
-Example
-
+Example:
+```bash
+WE ./imgs/wall1.png
+EA ./imgs/wall2.png
+NO ./imgs/wall3.png
+SO ./imgs/wall4.png
+F 100,200,1
+C  0,180,255
+         1111111111111111111111111
+         1000000000000000000000001
+1111111111000000000000000000000001
+10000000000000000000E0000000111111
+10000000000000000000000000001
+11111111111111111111111111111
+```
 
 ## &#x1F4BB; Usage
 
